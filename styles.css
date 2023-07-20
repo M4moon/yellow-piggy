@@ -1,0 +1,139 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar {
+    background-color: rgb(255, 234, 0);
+    color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo a {
+    color: black;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: helvetica;
+}
+
+.navbar-logo img {
+    max-height: 60px;
+    max-width: 60px;
+    margin-right: 20px;
+}
+.navbar-logo p { 
+    color: black;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: helvetica;
+    margin-left: 20px; 
+    margin-bottom: 12px;
+}
+
+.navbar-quote {
+    color: black;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: helvetica;
+    margin-right: 200px; 
+}
+.navbar-menu {
+    display: flex;
+    font-family: helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-menu li {
+    margin-left: 15px;
+}
+
+.navbar-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-menu a:hover {
+    color: #F5A623;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgrey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border-radius: 10px; 
+    max-width: 200px; 
+    margin: 0 auto; 
+    margin-top: 80px;
+    font-family: helvetica;
+}
+
+.login h2 {
+    margin-bottom: 40px;
+    font-family: inherit;
+    cursor: not-allowed;
+}
+.login a {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: inherit;
+    cursor:pointer;
+    color:black;
+    text-decoration: none;
+}
+.login a:hover
+{
+    color:#F5A623;
+    text-decoration:none;
+}
+.login a: :active
+{
+    text-decoration:none ;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.login button {
+    padding: 10px;
+    background-color: rgb(255, 234, 0);
+    color:black;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color:#F5A623;
+}
