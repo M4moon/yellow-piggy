@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $comments = $_POST["comments"];
-  $to = "your.email@example.com";
+  $to = "momokhan05@gmail.com";
   $subject = "Visitor Comments";
-  $headers = "From: contact_form@example.com";
+  $headers = "From: momokhan05@gmail.com";
   mail($to, $subject, $comments, $headers);
 }
 ?>
