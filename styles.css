@@ -1,9 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&display=swap');
 
 body, ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
+    font-family: 'Alegreya Sans';}
 
 .navbar {
     background-color: rgb(255, 234, 0);
@@ -25,7 +26,7 @@ body, ul {
     color: black;
     font-size: 2.5rem;
     text-decoration: none;
-    font-family: helvetica;
+    font-family: 'Alegreya Sans' ;
 }
 
 .navbar-logo img {
@@ -37,21 +38,21 @@ body, ul {
     color: black;
     font-size: 1rem;
     font-style: italic;
-    font-family: helvetica;
-    margin-left: 20px; 
-    margin-bottom: 12px;
+    font-family: 'Alegreya Sans';
+    margin-left: 8px; 
+    margin-top: 38px;
 }
 
 .navbar-quote {
     color: black;
     font-size: 1rem;
     font-style: italic;
-    font-family: helvetica;
+    font-family: 'Alegreya Sans';
     margin-right: 200px; 
 }
 .navbar-menu {
     display: flex;
-    font-family: helvetica;
+    font-family: 'Alegreya Sans';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -87,7 +88,8 @@ body, ul {
     max-width: 200px; 
     margin: 0 auto; 
     margin-top: 80px;
-    font-family: helvetica;
+    font-family: 'Alegreya Sans';
+    margin-bottom: 80px;
 }
 
 .login h2 {
@@ -108,7 +110,7 @@ body, ul {
     color:#F5A623;
     text-decoration:none;
 }
-.login a: :active
+.login a :active
 {
     text-decoration:none ;
 }
@@ -136,4 +138,179 @@ body, ul {
 
 .login button:hover {
     background-color:#F5A623;
+}
+
+.heading
+{
+display: flex;
+justify-content: center;
+font-size: 60px;
+font-family: 'Alegreya Sans';
+}
+.accounts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+.Or {
+    margin: 0 10px;
+    color: black; 
+    font-size: 40px;
+    font-family: 'Alegreya Sans';
+  }
+.accountbox
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color:lightgrey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px; 
+    max-width: 240px; 
+    margin: 0 60px; 
+    margin-top: 80px;
+    font-family: 'Alegreya Sans';
+}
+.accountbox h2 {
+    margin-bottom: 40px;
+    font-family: inherit;
+    cursor: not-allowed;
+}
+.accountbox a {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: inherit;
+    cursor:pointer;
+    color:black;
+    text-decoration: none;
+}
+.accountbox a:hover
+{
+    color:#F5A623;
+    text-decoration:none;
+}
+.accountbox a :active
+{
+    text-decoration:none ;
+}
+
+.accountbox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.accountbox input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+.accountbox button {
+    padding: 10px;
+    background-color: rgb(255, 234, 0);
+    color:black;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.accountbox button:hover {
+    background-color:#F5A623;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(255, 234, 0);
+    color: black;
+    text-align: center;
+    padding: 20px 0; /* Add vertical padding to the footer */
+    font-size: 14px; /* Reduce the font size for the footer text */
+    font-family: 'Alegreya Sans';
+  }
+  
+  .footer-links {
+    margin-bottom: 10px; /* Add some margin between the links and the footer text */
+  }
+  
+  .footer-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Alegreya Sans';
+    margin: 0 10px; /* Add spacing between the links */
+  }
+  
+  .footer-links a:hover {
+    color: #F5A623;
+  }
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px; /* Add padding to center the content */
+    font-family: 'Alegreya Sans';
+    text-align: center;
+    padding: 20px;
+  }
+  .about-container a{
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
+  }
+  .about-container li{
+    justify-content: center;
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 50px;
+    line-height:2.5 ;
+  }
+  
+  .about-content {
+    background-color: #ccc;
+    color: black;
+    max-width: 800px; /* Limit the width of the content */
+    border-radius: 30px;
+  }
+  
+  .about-content h2 {
+    font-size: 36px; /* Set a larger font size for the heading */
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans';
+  }
+  
+  .about-content p {
+    font-size: 18px; /* Set a font size for the paragraph */
+    line-height: 1.6; /* Add line spacing for readability */
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans';
+    justify-content: left;
+    text-align: justify;
+    padding: 30px;
+    
+  }
+  .about-content a
+  {
+    text-decoration: solid;
+  }
+  
+  .about-content a :hover
+  {
+    
+    color:#F5A623;
+  }
+.about-content textarea
+{
+    width: 300px ;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+.about-content button
+{
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
